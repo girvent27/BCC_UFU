@@ -2,7 +2,7 @@
 ### Para uso em manter códigos usados em matérias cursadas
 
 ---
-<sub><code> JEAN GIRVENT - BCC 73</code><br><jean.deu@ufu.br></sub>
+<sub>JEAN GIRVENT - BCC 73<br><jean.deu@ufu.br></sub>
 
 
 
