@@ -10,7 +10,7 @@
 >
 >> PORGRAMAÇÃO PROCEDIMENTAL
 
-> ## 2º PERIODO
+> 2º PERIODO
 >
 >> AED-I
 >> 
