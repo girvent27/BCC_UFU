@@ -13,5 +13,8 @@
 > 2º PERIODO
 >
 >> AED-I
+>> 
 >> PORGRAMAÇÃO FUNCIONAL
+>> 
 >> SISTEMAS DIGITAIS
+>> 
