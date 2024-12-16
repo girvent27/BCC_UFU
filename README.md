@@ -1,6 +1,5 @@
 # GIT UFU
 ### Para manter códigos usados em matérias cursadas e fazer versionamento de trabalhos
-
 <sub><sup>JEAN GIRVENT - BCC 73<br><jean.deu@ufu.br></sup></sub>
 
 ---
