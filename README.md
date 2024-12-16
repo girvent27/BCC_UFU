@@ -17,10 +17,10 @@
 
 > ### 2º PERIODO
 >
->> [AED-I]
+>> [AED-I](https://github.com/girvent27/BCC_UFU/tree/main/AED-I)
 >> 
 >> [PORGRAMAÇÃO FUNCIONAL](https://github.com/girvent27/BCC_UFU/tree/main/PROG%20FUNCIONAL)
 >> 
->> [SISTEMAS DIGITAIS]
+>> [SISTEMAS DIGITAIS](https://github.com/girvent27/BCC_UFU/tree/main/SISTEMAS%20DIGITAIS)
 >>
 >> ---
