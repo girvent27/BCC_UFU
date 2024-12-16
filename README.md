@@ -2,9 +2,8 @@
 ### Para uso em manter códigos usados em matérias cursadas
 
 ---
-<code> JEAN GIRVENT - BCC 73</code><br>
-<sub><sup>oi</sup></sub>
-<jean.deu@ufu.br>
+<sub><sup><code> JEAN GIRVENT - BCC 73</code><br><jean.deu@ufu.br></sup></sub>
+
 
 
 <p>Aqui as estruturas de pastas são feitas de forma que organizam em matérias.</p>
