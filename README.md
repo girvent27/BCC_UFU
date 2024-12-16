@@ -9,12 +9,15 @@
 > ### 1º PERIODO
 >
 >> PORGRAMAÇÃO PROCEDIMENTAL
+>>
+>> ---
 
-> # 2º PERIODO
+> ### 2º PERIODO
 >
 >> AED-I
 >> 
 >> PORGRAMAÇÃO FUNCIONAL
 >> 
 >> SISTEMAS DIGITAIS
->> 
+>>
+>> ---
