@@ -19,7 +19,7 @@
 >
 >> [AED-I]
 >> 
->> [PORGRAMAÇÃO FUNCIONAL](PROG FUNCIONAL)
+>> [PORGRAMAÇÃO FUNCIONAL](https://github.com/girvent27/BCC_UFU/tree/main/PROG%20FUNCIONAL)
 >> 
 >> [SISTEMAS DIGITAIS]
 >>
