@@ -11,7 +11,7 @@
 
 > ### 1º PERIODO
 >
->> [PORGRAMAÇÃO PROCEDIMENTAL]
+>> [PROGRAMAÇÃO PROCEDIMENTAL](https://github.com/girvent27/BCC_UFU/tree/main/PROG PROCED)
 >>
 >> ---
 
