@@ -1,0 +1,2 @@
+
+    int mdc(int ,int );
