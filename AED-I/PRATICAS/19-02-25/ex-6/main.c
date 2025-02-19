@@ -1,4 +1,8 @@
 /*
+Foi mal ai professora, não ta dando tempo de entregar o projeto ja 
+finalizado, mas eu tô estudando!!!1
+
+
 Exercício 6: Seja a estrutura Livro a seguir: 
 
 struct Livro {
