@@ -34,7 +34,7 @@ int menu(){
     return menu;
 }
 
-
+//++============+Criação, Teste e Listar Lista+============++
 Lista  *emptyVet(int cap){
     Lista *arr;
     arr = (Lista*) malloc(sizeof(Lista));
@@ -49,6 +49,24 @@ Lista  *emptyVet(int cap){
     }   
 }
 
+Lista *fullList(Lista arr){
+    if (arr.curr == arr.size)
+    {
+        return 1;
+    }
+    return 0;
+    
+}
+
 void killList(Lista *arr){
     free(arr);
 }
+/*
+void listLista(Lista arr){
+    for (int i = 0; i < count; i++)
+    {
+        
+    }
+    
+}
+*/

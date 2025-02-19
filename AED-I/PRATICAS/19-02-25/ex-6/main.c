@@ -52,7 +52,7 @@ int main(){
         default:
             break;
         }
-    } while (men > 4 || men < 0);
-    killList(&x);
+    } while (men < 5 || men > 0);
+    //killList(&x);
     return 0;
 }
