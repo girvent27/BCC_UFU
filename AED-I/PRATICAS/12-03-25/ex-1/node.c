@@ -42,9 +42,8 @@ int menu(char list[5][10])
     return menu;
 }
 
-Node *nodeStart()
-{
-    return NULL;
+void *nodeStart(Node **node){
+     *node = NULL;
 }
 
 int isEmptyNode(Node *addr)
@@ -78,28 +77,10 @@ void searchValue(Node *node, int code)
 }
 int i = 0;
 
-// void removeByName(Node *node, int code)
-// {
-//     // verifica se o prox eh o ultimo
-//     if (node->next != NULL)
-//     {
-//         // pego o prox para verificar se e o que quero deletar
-//         Node *n = node->next;
-//         if (n->value.code == code)
-//         {
-//             // deleto o node seguinte, mas antes defino o next
-//             // do node atual como o do proximo
-//             node->next = n->next;
-//             free(node->next);
-//         }
-//         else
-//             removeByName(node->next, code); // caso recursivo com o prox node se ele nn for o que quero deletar
-//     }
-//     else
-//     {
-//         return;
-//     }
-// }
+void remove(){
+ 
+ 
+}
 
 // usando a função da prof pra ver a lista depois de feita
 void percurso(Node *l)
