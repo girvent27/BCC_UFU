@@ -1,27 +1,57 @@
 #include <time.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdint.h>
+#include <string.h>
+// TO-DO: TRANSFORMAR EM DINAMICO
 
-char *tab_alphabet="abcdefghijklmnopqrstuvwxyz";
+int rangedRandNum(int min, int max) { return rand() % (max - min + 1) + min; }
 
-int nombreAlea(int min, int max){
-    return (rand()%(max-min+1) + min);
-}
-void generer_name(int length, char n[]){
-    int i ;
-    for (i=0;i<length;i++){
-        int k = nombreAlea(1,26);// from the table of the alphabet
-        n[i] = tab_alphabet[k-1];
+char randName()
+{
+    srand(time(NULL));
+    char arr[50];
+    int name = rangedRandNum(4, 5),
+        surname = rangedRandNum(5, 7),
+        sum = name + surname;
+    char consoante[] = "bcdfghjklmnpqrstvwxyz",
+         vowel[] = "aeiou";
+    printf("%d e %d\ncons = %d vow = %d\n", name, surname, sizeof(consoante), sizeof(vowel));
+    for (int na = 0; na < name; na++)
+    {
+        if (na % 2 == 0)
+            arr[na] = consoante[rangedRandNum(0, sizeof(consoante) - 2)];
+        else
+            arr[na] = vowel[rangedRandNum(0, sizeof(vowel) - 2)];
     }
-    n[i] = '\0';
+    arr[name] = ' ';
+    for (int na = name + 1; na <= sum; na++)
+    {
+        if (na % 2 == 0)
+            arr[na] = consoante[rangedRandNum(0, sizeof(consoante) - 2)];
+        else
+            arr[na] = vowel[rangedRandNum(0, sizeof(vowel) - 2)];
+    }
+
+    for (int j = sum + 2; j < 50; j++)
+    {
+        arr[j] = ' ';
+    }
+    arr[50] = '\0';
+
+    for (int i = 0; i < 50; i++)
+        printf("%c", arr[i]);
+
+    printf("\n");
+    return arr[50];
 }
 
-int main (void) {
-    char nn[64];
-    int a;
-    //srand( time( NULL ) );
-    a = nombreAlea(4, 6);
-    
-    printf(" >%s<\n", generer_name(a, nn));
-    return 0 ;
+int main()
+{
+
+    char arr[50];
+    arr[50] = randName();
+    printf("\n%d\n", sizeof(arr));
+
+    printf("%c", arr[1]);
 }
