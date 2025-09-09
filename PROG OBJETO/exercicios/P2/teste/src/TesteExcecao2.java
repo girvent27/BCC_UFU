@@ -1,0 +1,2 @@
+public class TesteExcecao2 {
+}
